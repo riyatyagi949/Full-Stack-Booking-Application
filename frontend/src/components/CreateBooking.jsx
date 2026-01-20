@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Calendar, MapPin, FileText } from 'lucide-react';
 import { useCreateBooking } from '../hooks/useBookings';
 import { motion } from 'framer-motion';
+import { apiFetch } from '../utils/api';
+import { toast } from 'react-hot-toast';
 
 export default function CreateBooking() {
   const [formData, setFormData] = useState({
@@ -14,10 +16,8 @@ export default function CreateBooking() {
   const [loadingServices, setLoadingServices] = useState(true);
   const createBooking = useCreateBooking();
 
-  //  Load real services from backend
   useEffect(() => {
-    fetch('http://localhost:5000/api/services')
-      .then(res => res.json())
+    apiFetch('/api/services')
       .then(data => {
         setServices(data);
         if (data.length > 0) {
@@ -28,6 +28,7 @@ export default function CreateBooking() {
       .catch(err => {
         console.error('Services load error:', err);
         setLoadingServices(false);
+        toast.error('Failed to load services');
       });
   }, []);
 
@@ -52,7 +53,7 @@ export default function CreateBooking() {
       className="max-w-2xl mx-auto glassmorphism rounded-3xl shadow-2xl p-8"
     >
       <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-8 text-center">
-         Create New Booking
+        Create New Booking
       </h2>
       
       <form onSubmit={handleSubmit} className="space-y-6">
@@ -133,7 +134,7 @@ export default function CreateBooking() {
               Creating Booking...
             </>
           ) : (
-            ' Create Booking'
+            'Create Booking'
           )}
         </motion.button>
       </form>
