@@ -1,11 +1,6 @@
-# 🚀 Home Services Booking System
+#  Home Services Booking System
 
-[
-[
-[
-[
-
-## ✨ **Full-Stack Booking Application**
+##  **Full-Stack Booking Application**
 AI-powered home services booking platform with **React + Next.js Frontend** & **Node.js + Express + MongoDB Backend**
 
 **Features:**
@@ -16,13 +11,13 @@ AI-powered home services booking platform with **React + Next.js Frontend** & **
 - ✅ MongoDB with Mongoose ORM
 - ✅ RESTful APIs
 
-## 📱 **Live Demo**
+##  **Live Demo**
 ```
 Frontend: http://localhost:5173
 Backend:  http://localhost:5000
 ```
 
-## 🛠️ **Tech Stack**
+##  **Tech Stack**
 ```
 Frontend: React 18 + Vite + Tailwind CSS + Lucide Icons + Framer Motion
 Backend:  Node.js + Express 5 + MongoDB + Mongoose
@@ -31,7 +26,7 @@ Tools:    CORS + Nodemon + dotenv
 
 ***
 
-## 🚀 **Quick Start**
+##  **Quick Start**
 
 ### **1. Clone & Install**
 ```bash
@@ -64,7 +59,7 @@ npm run dev
 
 ***
 
-## 📁 **Project Structure**
+##  **Project Structure**
 
 ```
 home-services-booking-system/
@@ -86,9 +81,9 @@ home-services-booking-system/
 
 ***
 
-## 🔧 **Environment Variables (.env)**
+##  **Environment Variables (.env)**
 
-**Create `.env` files & **NEVER commit to GitHub!**
+ Create `.env` files & **NEVER commit to GitHub!**
 
 ### **backend/.env**
 ```env
@@ -102,23 +97,7 @@ NODE_ENV=development
 VITE_API_URL=http://localhost:5000/api
 ```
 
-### **🛡️ .env को GitHub से Hide कैसे करें:**
-
-```bash
-# 1. .gitignore में add करें
-echo ".env" >> .gitignore
-echo ".env.local" >> .gitignore
-echo "node_modules/" >> .gitignore
-
-# 2. Already committed .env remove करें
-git rm --cached .env
-git commit -m "Remove .env from tracking"
-git push
-```
-
-***
-
-## 🌐 **API Endpoints**
+##  **API Endpoints**
 
 | Method | Endpoint              | Description              |
 |--------|----------------------|--------------------------|
@@ -134,23 +113,23 @@ http://localhost:5000/api/test
 
 ***
 
-## 🎮 **Features**
+##  **Features**
 
-### **✅ Frontend**
+### ** Frontend**
 - Glassmorphism UI design
 - Real-time form validation
 - Loading states & animations
 - Responsive mobile-first design
 - Service dropdown with real data
 
-### **✅ Backend**
+### ** Backend**
 - RESTful API architecture
 - MongoDB with Mongoose
 - Error handling & logging
 - CORS enabled
 - Auto-restart with Nodemon
 
-### **✅ Admin Panel**
+### ** Admin Panel**
 - View all bookings
 - Update booking status
 - Assign service providers
@@ -158,36 +137,22 @@ http://localhost:5000/api/test
 
 ***
 
-## 🧪 **Testing**
+##  **Testing**
 
 ```bash
 # Backend test
-curl http://localhost:5000/api/test
+ url http://localhost:5000/api/test
 
 # Seed services
-curl http://localhost:5000/api/services/seed
+ url http://localhost:5000/api/services/seed
 
 # Create booking
-curl -X POST http://localhost:5000/api/bookings \
+ url -X POST http://localhost:5000/api/bookings \
   -H "Content-Type: application/json" \
   -d '{"serviceId":"ID","address":"Meerut","scheduledAt":"2026-01-22T10:00"}'
 ```
 
 ***
-
-## 🚀 **Production Deployment**
-
-### **Backend (Render/Vercel/Heroku)**
-```bash
-npm install -g pm2
-pm2 start server.js --name "home-services"
-```
-
-### **Frontend (Vercel/Netlify)**
-```bash
-npm run build
-npm run preview
-```
 
 ### **MongoDB Atlas**
 1. Create free cluster
@@ -196,7 +161,7 @@ npm run preview
 
 ***
 
-## 🤝 **Contributing**
+##  **Contributing**
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -206,8 +171,9 @@ npm run preview
 
 ***
 
-## 📄 **License**
+##  **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ***
+
 
