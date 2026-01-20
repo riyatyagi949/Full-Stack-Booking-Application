@@ -1,7 +1,7 @@
 #  Home Services Booking System
 
 ##  **Full-Stack Booking Application**
-AI-powered home services booking platform with **React + Next.js Frontend** & **Node.js + Express + MongoDB Backend**
+AI-powered home services booking platform with **React  Frontend** & **Node.js + Express + MongoDB Backend**
 
 **Features:**
 - ✅ Real-time booking creation
@@ -81,10 +81,6 @@ home-services-booking-system/
 
 ***
 
-##  **Environment Variables (.env)**
-
- Create `.env` files & **NEVER commit to GitHub!**
-
 ### **backend/.env**
 ```env
 MONGODB_URI=mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/home-services?retryWrites=true&w=majority
@@ -115,21 +111,21 @@ http://localhost:5000/api/test
 
 ##  **Features**
 
-### ** Frontend**
+###  Frontend
 - Glassmorphism UI design
 - Real-time form validation
 - Loading states & animations
 - Responsive mobile-first design
 - Service dropdown with real data
 
-### ** Backend**
+###  Backend
 - RESTful API architecture
 - MongoDB with Mongoose
 - Error handling & logging
 - CORS enabled
 - Auto-restart with Nodemon
 
-### ** Admin Panel**
+###  Admin Panel
 - View all bookings
 - Update booking status
 - Assign service providers
@@ -172,8 +168,9 @@ http://localhost:5000/api/test
 ***
 
 ##  **License**
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE] file for details.
 
 ***
+
 
 
