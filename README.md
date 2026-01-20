@@ -1,7 +1,7 @@
 #  Home Services Booking System
 
 ##  **Full-Stack Booking Application**
-AI-powered home services booking platform with **React  Frontend** & **Node.js + Express + MongoDB Backend**
+Production-ready home services booking system with  React and Node.js. Complete booking lifecycle with admin panel & MongoDB persistence.
 
 **Features:**
 - ✅ Real-time booking creation
@@ -168,9 +168,10 @@ http://localhost:5000/api/test
 ***
 
 ##  **License**
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ***
+
 
 
 
