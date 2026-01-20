@@ -14,7 +14,7 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://full-stack-booking-application.onrender.com',
-    'https://your-frontend.onrender.com'
+    'https://full-stack-booking-application-1.onrender.com'
   ]
 }));
 app.use(express.json({ limit: '10mb' }));
